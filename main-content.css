@@ -91,3 +91,37 @@
     font-weight: 700;
     border-radius: 40px;    
 } 
+
+.content_card {
+    display: flex;
+    width: 70vw;
+    background-color: #121212;
+    justify-content: space-between;
+    margin-left: 326px;
+    margin-right: 56px;
+    height: 97vh;
+    top: 106px;
+    bottom: 0px;
+    position: fixed;
+}
+
+.content_card .content_text {
+    flex-shrink: 0;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.content_card .content_title {
+    color: #fff;
+    margin: 10px 10px 25px 10px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.content_card .content_subtitle {
+    color: #fff;
+    margin: 37px 10px 25px 10px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
