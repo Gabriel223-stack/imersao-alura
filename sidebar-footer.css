@@ -51,6 +51,10 @@ body {
     font-size: 14px;
 }
 
+.sidebar nav ul li a:hover {
+    color: lime;
+}
+
 .library {
     background-color: #121212;
     border-radius: 8px;
@@ -81,6 +85,11 @@ body {
     text-decoration: none;
     text-transform: none;
     padding: 20px 10px;
+}
+
+.library_button > span:hover {
+    color:  lime;
+    transform: scale(1.04);
 }
 
 .library .library_button .fa {
@@ -141,6 +150,11 @@ body {
     border: 0px;
     width: 113px;
     margin-top: 12px;
+}
+
+.section-playlist_button:hover {
+    transform: scale(1.04);
+    background-color: lime;
 }
 
 .sidebar .cookies {
@@ -208,5 +222,10 @@ body {
         border-radius: 40px;
         padding: 15px 35px;
         margin: 11px 10px 0px 0px;
+    }
+
+    .disclaimer-premium button:hover {
+        transform: scale(1.04);
+        background-color: lime;
     }
 
